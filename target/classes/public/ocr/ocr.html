@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>文字识别</title>
+    <link rel="stylesheet" href="../css/layui.css" media="all">
+</head>
+<style type="text/css">
+    body {
+        background-color: #f2f2f2;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .input-size {
+        width: 200px;
+    }
+</style>
+<body>
+<div>
+    <div>
+        <div class="center"><h1>文字识别</h1></div>
+        <br><br>
+        <div class="center">
+            <button type="button" class="layui-btn" id="test1">
+                <i class="layui-icon">&#xe67c;</i>图片上传
+            </button>
+        </div>
+    </div>
+    <hr class="layui-bg-green">
+    <br>
+    <div>
+        <div class="center"><h3>识别结果</h3></div>
+        <br>
+        <form class="layui-form">
+            <textarea name="desc" class="layui-textarea" id="desc"></textarea>
+        </form>
+    </div>
+    <br>
+    <hr class="layui-bg-green">
+    <div class="center"><h2>关注我，获取更多帮助</h2></div>
+    <br>
+    <div class="center">
+        <img src="../image/wx.png" width="255px">
+    </div>
+    <br>
+    <hr class="layui-bg-green">
+    <div class="center"><h2>鼓励作者</h2></div>
+    <br>
+    <div class="center">
+        <img src="../image/微信.jpg" width="255px" height="255px">
+        <br><br>
+        <img src="../image/支付宝.jpg" width="255px" height="255px">
+    </div>
+</div>
+</div>
+</body>
+<script src="../js/layui.all.js"></script>
+<script src="../js/jquery-3.0.0.js"></script>
+<script type="text/javascript">
+    layui.use('upload', function () {
+        var upload = layui.upload;
+
+        //执行实例
+        var uploadInst = upload.render({
+            elem: '#test1' //绑定元素
+            , url: '../ocr/image' //上传接口
+            , done: function (data) {
+                //上传完毕回调
+                var str = "";
+                for (var i in data.words_result) {
+                    str += data.words_result[i].words;
+                }
+                $("#desc").val("")
+                $("#desc").val(str);
+            }
+            , error: function () {
+                //请求异常回调
+                $("#desc").val("")
+                $("#desc").val("请求异常，请稍后再试！")
+            }
+        });
+    });
+</script>
+</html>

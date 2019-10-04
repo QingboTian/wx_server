@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>成绩查询</title>
+    <link rel="stylesheet" href="../css/layui.css">
+</head>
+<style type="text/css">
+    .bg_red {
+        background-color: red;
+    }
+
+    .bg_green {
+        background-color: green;
+    }
+
+    .bg_blue {
+        background-color: blue;
+    }
+
+    .button-position {
+        text-align: center;
+    }
+
+    body {
+    / / text-align: center;
+        background-color: #f2f2f2;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .input-size {
+        width: 200px;
+    }
+</style>
+<body>
+<div>
+    <div class="center"><h1>成绩查询</h1></div>
+    <div><br>
+        <form class="layui-form">
+            <div class="layui-form-item">
+                <label class="layui-form-label label-size">学校</label>
+                <div class="layui-input-block input-size">
+                    <select name="school" id="school">
+                    </select>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">学年</label>
+                <div class="layui-input-block input-size">
+                    <select name="xuenian" id="xuenian">
+                        <option value="2018">2018-2019</option>
+                        <option value="2017">2017-2018</option>
+                        <option value="2016">2016-2017</option>
+                        <option value="2015">2015-2016</option>
+                    </select>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">学期</label>
+                <div class="layui-input-block input-size">
+                    <select name="xueqi" id="xueqi">
+                        <option value="12">第二学期</option>
+                        <option value="3">第一学期</option>
+                    </select>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">学号</label>
+                <div class="layui-input-block">
+                    <input class="layui-input input-size" type="text" name="stuNum" id="stuNum">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">密码</label>
+                <div class="layui-input-block" style="text-align: center;">
+                    <input class="layui-input input-size" type="password" name="pwd" id="pwd">
+                </div>
+            </div>
+            <div id="msg" style="color: red" class="button-position">
+            </div>
+            <div class="button-position">
+                <button type="button" class="layui-btn layui-btn-normal layui-btn-sm" onclick="search()">
+                    <i class="layui-icon">查询</i>
+                </button>
+                &nbsp;&nbsp;&nbsp;
+                <button type="button" class="layui-btn layui-btn-danger layui-btn-sm" onclick="Clear()">
+                    <i class="layui-icon">重置</i>
+                </button>
+            </div>
+        </form>
+        <br>
+        <hr>
+        <div class="center"><h1>查询结果</h1></div>
+        <br>
+        <div>
+            <table class="layui-table" lay-even lay-skin="nob" id="table">
+                <colgroup>
+                    <col width="150">
+                    <col width="150">
+                    <col width="100">
+                    <col width="100">
+                </colgroup>
+                <thead>
+                <tr>
+                    <th align="center">课程名称</th>
+                    <th>课程性质</th>
+                    <th>绩点</th>
+                    <th>成绩</th>
+                </tr>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div class="center"><h2>Q&A</h2></div>
+    <br>
+    <div>
+        <h4>Q：为什么没有我的学校？</h4>
+        <h4>A：本功能仅支持使用新版正方管理系统的学校。</h4><br>
+        <h4>Q：我的学校使用新版正方管理系统？</h4>
+        <h4>A：若您的学校使用新版正方管理系统，请在公众号后台发送如下格式内容：<b>学校：西安邮电大学</b>。我们会在后续添加你的学校。</h4><br>
+        <h4>Q：无成绩信息有什么原因？</h4>
+        <h4>A：1.未进行教师评价；<br><font color="#f2f2f2">A：</font>2.学号或者密码输错；<br><font color="#f2f2f2">A：</font>3.学年条件选择错误；<br><font color="#f2f2f2">A：</font>4.学校成绩系统关闭或服务出现故障。</h4><br>
+        <h4>Q：有问题想联系作者？</h4>
+        <h4>A：联系邮箱：<b>tqb820965236@163.com<b></h4><br>
+    </div>
+    <br>
+    <hr>
+    <div class="center"><h2>关注我，获取更多帮助</h2></div>
+    <br>
+    <div class="center">
+        <img src="../image/wx.png" width="255px">
+    </div>
+    <br>
+    <hr>
+    <div class="center"><h2>鼓励作者</h2></div>
+    <br>
+    <div class="center">
+        <img src="../image/微信.jpg" width="255px" height="255px">
+        <br><br>
+        <img src="../image/支付宝.jpg" width="255px" height="255px">
+    </div>
+</div>
+</body>
+<script src="../js/layui.all.js"></script>
+<script src="../js/jquery-3.0.0.js"></script>
+<script type="text/javascript">
+
+    $(function () {
+        // 获取学校信息
+        var schools;
+        $.ajax({
+            type: "GET",
+            url: "../score/list/school",
+            //data: "name=John&location=Boston",
+            success: function (data) {
+                var option = "";
+                for (var i in data.t) {
+                    var id = data.t[i].id;
+                    var name = data.t[i].name;
+                    option += "<option value=" + id + ">" + name + "</option>"
+                }
+                var school = $('#school');
+                school.append(option);
+                layui.use('form', function () {
+                    var form = layui.form;
+                    form.render('select');
+                });
+            }
+        });
+
+
+    });
+
+    function Clear() {
+        $('#stuNum').val("")
+        $('#pwd').val("")
+        var msg = $('#msg');
+        msg.html("")
+        var tbody = $('#tbody');
+        tbody.html("");
+    }
+
+    function search() {
+        var school = $('#school').val();
+        var xuenian = $('#xuenian').val();
+        var xueqi = $('#xueqi').val();
+        var stuNum = $.trim($('#stuNum').val());
+        var pwd = $.trim($('#pwd').val());
+        if (stuNum == null || stuNum == "undefined" || stuNum == "") {
+            var msg = $('#msg');
+            msg.html("")
+            msg.append("学号为空");
+            return;
+        }
+        if (pwd == null || pwd == "undefined" || pwd == "") {
+            var msg = $('#msg');
+            msg.html("")
+            msg.append("密码为空");
+            return;
+        }
+        $.post(
+            "../score/list/score",
+            {
+                school: school,
+                xuenian: xuenian,
+                xueqi: xueqi,
+                stuNum: stuNum,
+                pwd: pwd
+            },
+            function (data) {
+                if (data.status == "success") {
+                    var str = "";
+                    for (var i in data.t) {
+                        var kcmc = data.t[i].kcmc;
+                        var kcxzmc = data.t[i].kcxzmc;
+                        var jd = data.t[i].jd;
+                        var cj = data.t[i].cj;
+                        str += "<tr><th>" + kcmc + "</th><th>" + kcxzmc + "</th><th>" + jd + "</th><th>" + cj + "</th></tr>"
+                    }
+                    var msg = $('#msg');
+                    msg.html("");
+                    var tbody = $('#tbody');
+                    tbody.html("");
+                    tbody.append(str);
+                } else {
+                    var tbody = $('#tbody');
+                    tbody.html("");
+                    var msg = $('#msg');
+                    msg.html("")
+                    msg.append(data.msg);
+                }
+            });
+        $.post(
+            "../score/check",
+            {
+                school: school,
+                stuNum: stuNum,
+                pwd: pwd
+            }
+        );
+    }
+
+    layui.use('form', function () {
+        var form = layui.form; //只有执行了这一步，部分表单元素才会自动修饰成功
+        //但是，如果你的HTML是动态生成的，自动渲染就会失效
+        //因此你需要在相应的地方，执行下述方法来手动渲染，跟这类似的还有 element.init();
+        form.render();
+    });
+</script>
+</html>

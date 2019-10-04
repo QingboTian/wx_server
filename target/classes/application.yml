@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/wx?useSSL=false&serverTimezone=GMT%2b8&autoReconnect=true&roundRobinLoadBalance=true&autoReconnectForPools=true&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123321tqb
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  servlet:
+    multipart:
+      max-request-size: 10MB
+      max-file-size: 10MB
+  #resources:
+    #static-locations: spring.resources.static-locations=classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
+logging:
+  level:
+    root: info
+  # path:
+  file: wx.log
+  pattern:
+    console: "%d{yyyy/MM/dd-HH:mm:ss} [%thread] %-5level %logger- %msg%n"
+    file: "%d{yyyy/MM/dd-HH:mm} [%thread] %-5level %logger- %msg%n"
+server:
+  port: 8888
+  servlet:
+    context-path: /wx
