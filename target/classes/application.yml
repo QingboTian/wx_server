@@ -22,3 +22,8 @@ server:
   port: 8888
   servlet:
     context-path: /wx
+  ssl:
+    key-store: classpath:tomcat.keystore
+    key-store-type: JKS
+    key-store-password: tomcat
+    key-alias: tomcat

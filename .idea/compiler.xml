@@ -12,7 +12,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="wx" options="-parameters" />
+      <module name="wx" options="" />
     </option>
   </component>
 </project>
