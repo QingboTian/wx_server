@@ -2,60 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19f9a800-1c25-44bd-b6d4-534b76420f99" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/WXApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/WXApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/common/WXResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/common/WXResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/ocr/controller/OCRController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/ocr/controller/OCRController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/SearchVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/SearchVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/controller/ScoreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/controller/ScoreController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/dao/SchoolMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/dao/SchoolMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/dao/SchoolSqlProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/dao/SchoolSqlProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/dao/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/dao/StudentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/dao/StudentSqlProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/dao/StudentSqlProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/School.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/School.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/SchoolExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/SchoolExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/SchoolExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/SchoolExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/SchoolExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/SchoolExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/SchoolExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/SchoolExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/Score.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/Score.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/StudentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/StudentExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/StudentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/StudentExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/StudentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/StudentExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/StudentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/StudentExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/serivce/ScoreService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/serivce/ScoreService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/serivce/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/serivce/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/serivce/impl/ScoreServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/serivce/impl/ScoreServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/serivce/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/serivce/impl/StudentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/utils/B64.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/utils/B64.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/utils/RSAEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/utils/RSAEncoder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/utils/ZFsoft.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/utils/ZFsoft.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/controller/CreateMenuMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/controller/CreateMenuMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/controller/WXController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/controller/WXController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/AbstructButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/AbstructButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/AccessToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/AccessToken.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/BaseMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/BaseMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/Button.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/ClickButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/ClickButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/Image.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/Image.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/ImageMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/ImageMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/SubButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/SubButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/TextMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/TextMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/ViewButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/ViewButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/service/WXService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/service/WXService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/service/impl/WXServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/service/impl/WXServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/utils/HttpClientUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/utils/HttpClientUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/utils/MsgUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/utils/MsgUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-score.ScoreControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-score.ScoreControllerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/score.ScoreControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/score.ScoreControllerTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/wx.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/wx.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx.log" beforeDir="false" afterPath="$PROJECT_DIR$/wx.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -96,28 +44,28 @@
         <counts>
           <entry key="ft" value="123" />
           <entry key="java" value="6" />
-          <entry key="yml" value="122" />
+          <entry key="yml" value="123" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="6" />
           <entry key="VTL" value="123" />
-          <entry key="YAML" value="122" />
+          <entry key="YAML" value="123" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="java" value="6" />
-          <entry key="yml" value="1" />
+          <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="6" />
-          <entry key="YAML" value="1" />
+          <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -127,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state relative-caret-position="493">
+              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -208,9 +156,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/public/ocr/ocr.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/tqb/score/controller/ScoreController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/tqb/common/WXResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tqb/ocr/controller/OCRController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -731,7 +679,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571647486252" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571647781778" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -887,7 +835,7 @@
       <workItem from="1571459464401" duration="1228000" />
       <workItem from="1571460749184" duration="819000" />
       <workItem from="1571546642924" duration="398000" />
-      <workItem from="1571647122507" duration="289000" />
+      <workItem from="1571647122507" duration="656000" />
     </task>
     <servers />
   </component>
@@ -918,7 +866,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123529000" />
+    <option name="totallyTimeSpent" value="123896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1277,8 +1225,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="493">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
     </entry>
