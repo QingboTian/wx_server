@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/wx?useSSL=false&serverTimezone=GMT%2b8&autoReconnect=true&roundRobinLoadBalance=true&autoReconnectForPools=true&useUnicode=true&characterEncoding=utf8
     username: root
-    password: 
+    password:
     driver-class-name: com.mysql.cj.jdbc.Driver
   servlet:
     multipart:

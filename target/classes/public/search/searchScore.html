@@ -52,6 +52,7 @@
                 <label class="layui-form-label">学年</label>
                 <div class="layui-input-block input-size">
                     <select name="xuenian" id="xuenian">
+                        <option value="2019">2019-2020</option>
                         <option value="2018">2018-2019</option>
                         <option value="2017">2017-2018</option>
                         <option value="2016">2016-2017</option>
@@ -63,8 +64,8 @@
                 <label class="layui-form-label">学期</label>
                 <div class="layui-input-block input-size">
                     <select name="xueqi" id="xueqi">
-                        <option value="12">第二学期</option>
                         <option value="3">第一学期</option>
+                        <option value="12">第二学期</option>
                     </select>
                 </div>
             </div>
@@ -93,7 +94,11 @@
             </div>
         </form>
         <br>
+        <div class="center" id="load" hidden>
+            加载ing...
+        </div>
         <hr>
+
         <div class="center"><h1>查询结果</h1></div>
         <br>
         <div>
@@ -140,13 +145,13 @@
     </div>
     <br>
     <hr>
-    <div class="center"><h2>鼓励作者</h2></div>
-    <br>
-    <div class="center">
-        <img src="../image/微信.jpg" width="255px" height="255px">
-        <br><br>
-        <img src="../image/支付宝.jpg" width="255px" height="255px">
-    </div>
+    <!--<div class="center"><h2>鼓励作者</h2></div>-->
+    <!--<br>-->
+    <!--<div class="center">-->
+        <!--<img src="../image/微信.jpg" width="255px" height="255px">-->
+        <!--<br><br>-->
+        <!--<img src="../image/支付宝.jpg" width="255px" height="255px">-->
+    <!--</div>-->
 </div>
 </body>
 <script src="../js/layui.all.js"></script>
@@ -194,6 +199,9 @@
         var xueqi = $('#xueqi').val();
         var stuNum = $.trim($('#stuNum').val());
         var pwd = $.trim($('#pwd').val());
+
+        var load = $('#load');
+        load.attr('hidden',false)
         if (stuNum == null || stuNum == "undefined" || stuNum == "") {
             var msg = $('#msg');
             msg.html("")
@@ -217,6 +225,7 @@
             },
             function (data) {
                 if (data.status == "success") {
+                    load.attr('hidden',true)
                     var str = "";
                     for (var i in data.t) {
                         var kcmc = data.t[i].kcmc;

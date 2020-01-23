@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: score.ScoreControllerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.227 s - in score.ScoreControllerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.993 s - in score.ScoreControllerTest

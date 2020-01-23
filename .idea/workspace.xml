@@ -4,6 +4,57 @@
     <list default="true" id="19f9a800-1c25-44bd-b6d4-534b76420f99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/search/searchScore.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/search/searchScore.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/main/WXApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/WXApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/common/WXResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/common/WXResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/ocr/controller/OCRController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/ocr/controller/OCRController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/SearchVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/SearchVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/controller/ScoreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/controller/ScoreController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/dao/SchoolMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/dao/SchoolMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/dao/SchoolSqlProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/dao/SchoolSqlProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/dao/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/dao/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/dao/StudentSqlProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/dao/StudentSqlProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/School.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/School.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/SchoolExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/SchoolExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/SchoolExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/SchoolExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/SchoolExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/SchoolExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/SchoolExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/SchoolExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/Score.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/Score.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/StudentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/StudentExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/StudentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/StudentExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/StudentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/StudentExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/StudentExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/pojo/StudentExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/serivce/ScoreService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/serivce/ScoreService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/serivce/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/serivce/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/serivce/impl/ScoreServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/serivce/impl/ScoreServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/serivce/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/serivce/impl/StudentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/utils/B64.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/utils/B64.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/utils/RSAEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/utils/RSAEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/score/utils/ZFsoft.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/score/utils/ZFsoft.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/controller/CreateMenuMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/controller/CreateMenuMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/controller/WXController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/controller/WXController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/AbstructButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/AbstructButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/AccessToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/AccessToken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/BaseMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/BaseMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/Button.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/ClickButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/ClickButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/Image.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/Image.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/ImageMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/ImageMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/SubButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/SubButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/TextMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/TextMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/ViewButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/pojo/ViewButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/service/WXService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/service/WXService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/service/impl/WXServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/service/impl/WXServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/utils/HttpClientUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/utils/HttpClientUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tqb/wx/utils/MsgUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tqb/wx/utils/MsgUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/public/search/searchScore.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/public/search/searchScore.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-score.ScoreControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-score.ScoreControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/score.ScoreControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/score.ScoreControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/wx.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/wx.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx.log" beforeDir="false" afterPath="$PROJECT_DIR$/wx.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,52 +82,71 @@
     <session id="-454845084">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.152" value="1" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ft" value="123" />
+          <entry key="html" value="175" />
           <entry key="java" value="6" />
-          <entry key="yml" value="123" />
+          <entry key="txt" value="12" />
+          <entry key="yml" value="133" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="HTML" value="175" />
           <entry key="JAVA" value="6" />
+          <entry key="PLAIN_TEXT" value="12" />
           <entry key="VTL" value="123" />
-          <entry key="YAML" value="123" />
+          <entry key="YAML" value="133" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="6" />
-          <entry key="yml" value="2" />
+          <entry key="html" value="1" />
+          <entry key="java" value="10" />
+          <entry key="log" value="1" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="2" />
+          <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="6" />
-          <entry key="YAML" value="2" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="10" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="2" />
+          <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            <state relative-caret-position="112">
+              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -152,12 +222,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/public/ocr.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/search/searchScore.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/ocr/ocr.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/search/searchScore.html" />
         <option value="$PROJECT_DIR$/src/main/resources/public/ocr/ocr.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/tqb/score/controller/ScoreController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tqb/common/WXResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tqb/ocr/controller/OCRController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/search/searchScore.html" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
       </list>
     </option>
@@ -173,6 +243,7 @@
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\Maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\m2\repository" />
         <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\conf\settings.xml" />
+        <option name="workOffline" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -187,6 +258,35 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="wx" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="wx" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="wx" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="wx" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="compiler" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="wx" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="wx" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="jar" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
       </expand>
       <select />
@@ -592,7 +692,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -633,40 +732,18 @@
               <item name="wx" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="wx" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="wx" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="wx" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="wx" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="wx" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="wx" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="wx" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="wx" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="score" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -679,7 +756,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571647781778" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579773433890" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -690,21 +767,21 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.tqb.score.dao" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\wx\src\main\resources" />
-      <recent name="D:\Code\wx\src\main\resources\static" />
-      <recent name="D:\Code\wx\src\main\resources\public" />
-      <recent name="D:\Code\wx\src\main\webapp" />
-      <recent name="D:\Code\wx\src\main\java\com\tqb\score\pojo" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\wx\src\main\resources\public\search" />
       <recent name="D:\Code\wx\src\main\resources\public\ocr" />
       <recent name="D:\Code\wx\src\main\resources\public" />
       <recent name="D:\Code\wx\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\wx\src\main\resources\static\image" />
+      <recent name="D:\Code\wx\src\main\resources" />
+      <recent name="D:\Code\wx\src\main\resources\static" />
+      <recent name="D:\Code\wx\src\main\resources\public" />
+      <recent name="D:\Code\wx\src\main\webapp" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tqb.score.dao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -835,7 +912,16 @@
       <workItem from="1571459464401" duration="1228000" />
       <workItem from="1571460749184" duration="819000" />
       <workItem from="1571546642924" duration="398000" />
-      <workItem from="1571647122507" duration="656000" />
+      <workItem from="1571647122507" duration="758000" />
+      <workItem from="1574397077518" duration="10000" />
+      <workItem from="1574943686103" duration="235000" />
+      <workItem from="1576319335478" duration="979000" />
+      <workItem from="1576321000811" duration="2614000" />
+      <workItem from="1576327212347" duration="1237000" />
+      <workItem from="1576566191804" duration="302000" />
+      <workItem from="1578571253044" duration="2510000" />
+      <workItem from="1578751846911" duration="748000" />
+      <workItem from="1579762270362" duration="1855000" />
     </task>
     <servers />
   </component>
@@ -866,7 +952,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123896000" />
+    <option name="totallyTimeSpent" value="134488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -878,7 +964,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.21588486" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.14285715" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -890,7 +976,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.37350705" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.11292074" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -905,7 +991,9 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info anchor="right" id="Maven Projects" order="10" weight="0.035714287" />
+      <window_info anchor="right" id="Maven Projects" order="10" visible="true" weight="0.20095949" />
+      <window_info anchor="right" id="Word Book" order="11" side_tool="true" />
+      <window_info anchor="right" id="Redis Servers" order="12" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -919,20 +1007,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tqb/wx/service/WXService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tqb/wx/pojo/ImageMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tqb/wx/pojo/BaseMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
@@ -975,13 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tqb/score/dao/SchoolMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tqb/score/dao/StudentSqlProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -1000,13 +1067,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tqb/score/dao/SchoolSqlProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4524">
-          <caret line="174" column="47" selection-start-line="174" selection-start-column="47" selection-end-line="174" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1120,13 +1180,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tqb/score/serivce/impl/ScoreServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/httpclient.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -1144,13 +1197,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Maven/apache-maven-3.6.0-bin/apache-maven-3.6.0/conf/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tqb/score/controller/ScoreController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -1160,20 +1206,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tqb/ocr/controller/TEst.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tqb/ocr/controller/Demo.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3556">
-          <caret line="127" column="30" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tqb/score/serivce/ScoreService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.6/lombok-1.18.6.jar!/lombok/extern/slf4j/Slf4j.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -1202,13 +1234,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/search/searchScore.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="218" column="47" lean-forward="true" selection-start-line="218" selection-start-column="47" selection-end-line="218" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tqb/score/SearchVO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1223,10 +1248,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tqb/score/serivce/impl/ScoreServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/wx.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tqb/score/dao/SchoolMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/search/searchScore.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Maven/apache-maven-3.6.0-bin/apache-maven-3.6.0/conf/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3332">
+          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tqb/score/serivce/ScoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="201" column="27" lean-forward="true" selection-start-line="201" selection-start-column="27" selection-end-line="201" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tqb/score/dao/SchoolSqlProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="174" column="47" selection-start-line="174" selection-start-column="47" selection-end-line="174" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        <state relative-caret-position="112">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1322,6 +1409,7 @@
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
+    <option value="verify install:install" />
     <option value="clean package" />
     <option value="clean -U package" />
   </component>
